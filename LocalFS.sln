@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalFS", "LocalFS\LocalFS.csproj", "{E86C982C-054F-45AE-8E5B-B31A415E5C5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalFsTests", "LocalFsTests\LocalFsTests.csproj", "{35F11AC6-FFC1-4165-995F-C74351F3FFA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{E86C982C-054F-45AE-8E5B-B31A415E5C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E86C982C-054F-45AE-8E5B-B31A415E5C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E86C982C-054F-45AE-8E5B-B31A415E5C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F11AC6-FFC1-4165-995F-C74351F3FFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F11AC6-FFC1-4165-995F-C74351F3FFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F11AC6-FFC1-4165-995F-C74351F3FFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F11AC6-FFC1-4165-995F-C74351F3FFA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

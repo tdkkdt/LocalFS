@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f08d768-0dcb-4577-b3ae-c8d23b3f2ee8" name="Default Changelist" comment="" />
+    <list default="true" id="1f08d768-0dcb-4577-b3ae-c8d23b3f2ee8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LocalFS/Directory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/DirectoryInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/API/Driver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/API/FileHandle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/API/FileSystemConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/ApiException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/Attribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/Bitmap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/ClustersAllocator/ClusterAllocatorCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/ClustersAllocator/ClustersAllocator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/ClustersAllocator/ClustersBitArray.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/ClustersAllocator/ClustersTransaction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/ConsistencyException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/Data/CompactData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/Data/Data.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/Data/DataManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/Data/DataType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/Data/ExtendedData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/Data/ResidentData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/DataRun.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/DirectoryHandle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/EntriesManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/EntriesTable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/Entry.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/FileHandlesLocksManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/FileHandlesManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/FileSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/FileSystemInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/IOSubsystem/ReadCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/IOSubsystem/ReadController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/IOSubsystem/WriteCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/IOSubsystem/WriteController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/InternalIOException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/InvalidPathException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Driver/Model/Path.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/FileInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/FileStream.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/FileSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalFS/Problem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LocalFS/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LocalFS/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LocalFS/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LocalFS/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LocalFS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LocalFS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalFS.sln" beforeDir="false" afterPath="$PROJECT_DIR$/LocalFS.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalFS/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalFS/LocalFS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LocalFS/LocalFS.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +60,94 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C9C5A075-95E7-427D-88D6-0E688438E069/c1/30626f16/BlockingCollection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1F4F0914-5411-4A47-9D76-C00412957903/37D/FileStream.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f4f091454114a479d76c004129579038d6e00/1AE/ReaderWriterLockSlim.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1F4F0914-5411-4A47-9D76-C00412957903/CE/Span.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1F4F0914-5411-4A47-9D76-C00412957903/A1/Memory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f4f091454114a479d76c004129579038d6e00/377/BinaryWriter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f4f091454114a479d76c004129579038d6e00/382/MemoryStream.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f4f091454114a479d76c004129579038d6e00/376/BinaryReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1F4F0914-5411-4A47-9D76-C00412957903/1C2/Future.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c9c5a07595e7427d88d60e688438e0692d200/80/6d7bca96/ConcurrentDictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LocalFS/Driver/Model/Data/DataManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/735E84C3-457A-4CEB-8F18-E9435090DA17/a0/d733e87a/Stream.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1F4F0914-5411-4A47-9D76-C00412957903/375/Stream.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/735E84C3-457A-4CEB-8F18-E9435090DA17/b0/64f2d225/FileStream.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dmitryyudakov/RiderProjects/LocalFS/LocalFS/Driver/Model/FileHandlesLocksManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1F4F0914-5411-4A47-9D76-C00412957903/1A0/CancellationToken.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/LocalFS/Class1.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/FileEntry.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/EntryType.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Entry.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/DirectoryInfo.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/File.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/LocalFS.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/EntriesTable.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Directory.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/DataRun.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/Attribute.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/DirectoryEntry.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/EntryType.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/FileStream.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/Bitmap.cs" />
+      <option value="$PROJECT_DIR$/LocalFsTests/Class1.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/FileSystem.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Problem" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/InternalIOException.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/API/WriteController.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/API/FileSystemConfig.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/API/ReadController.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/API/WriteCommand.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/API/ReadCommand.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/API/LengthAndOffset.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/FileEntry.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/API/Driver.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/FileSystem.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/API/FileHandle.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/Entry.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/Data.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/ResidentData.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/CompactData.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/ExtendedData.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/Data/ExtendedData.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/Data/CompactData.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/Data/Data.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/API/EntriesManager.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/Data/DataType.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/Data/DataReader.cs" />
+      <option value="$PROJECT_DIR$/LocalFS/Driver/Model/Data/ResidentData.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zZtX729C9WqQJawwZ79VYqdRgQ" />
@@ -25,6 +160,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -35,8 +177,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634367477529</updated>
-      <workItem from="1634367484011" duration="22000" />
+      <workItem from="1634367484011" duration="876000" />
+      <workItem from="1634368405359" duration="1802000" />
+      <workItem from="1634593874914" duration="23747000" />
+      <workItem from="1636193698242" duration="9630000" />
+      <workItem from="1636403238989" duration="448000" />
+      <workItem from="1636495263367" duration="4443000" />
+      <workItem from="1636886749280" duration="10841000" />
+      <workItem from="1637412433163" duration="15941000" />
+      <workItem from="1637620781103" duration="4731000" />
+      <workItem from="1638309005110" duration="3114000" />
+      <workItem from="1639344854069" duration="1178000" />
+      <workItem from="1640551766493" duration="15347000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1634367522813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634367522813</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -52,8 +213,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
